@@ -67,3 +67,5 @@ app.locals.iterator = 0;
 server.listen(port, () => {
   console.log(`[server]: Server is running at http://localhost:${port}`);
 });
+
+export default app;
