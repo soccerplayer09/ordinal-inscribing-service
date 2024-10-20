@@ -7,7 +7,7 @@
     "build": "npx tsc --skipLibCheck",
     "start": "node dist/index.js",
     "dev": "npx ts-node-dev index.ts",
-    "test": "jest"
+    "test": "jest --setupFiles dotenv/config"
   },
   "keywords": [],
   "author": "",
